@@ -1,0 +1,20 @@
+<!Author:Abhivaadya Sharma>
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Journal | My Portfolio</title><link rel="stylesheet" href="css/style.css"><script src="js/script.js" defer></script><script src="js/journal.js" defer></script></head>
+<body>
+<header class="site-header" id="top"><nav class="navbar container" aria-label="Main navigation"><a class="brand" href="index.html">My<span>Portfolio.</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><div class="nav-links"><a href="index.html">Home</a><a href="hobbies.html">Hobbies</a><a href="projects.html">Projects</a><a class="active" href="journal.html">Journal</a><a href="contact.html">Contact</a></div><button class="theme-toggle" aria-label="Toggle dark mode">☾</button></nav></header>
+<main>
+<section class="page-hero container"><p class="eyebrow">THOUGHTS, NOTES & LITTLE DISCOVERIES</p><h1>The <span>journal.</span></h1><p class="lead">A place for ideas, learning moments, book notes and everyday reflections.</p></section>
+<section class="container journal-layout">
+  <div class="journal-main">
+    <div class="latest-label">✦ LATEST ENTRY</div><div id="latest-entry"></div>
+    <div class="journal-toolbar"><div><p class="eyebrow">THE ARCHIVE</p><h2>All entries</h2></div><input id="journal-search" type="search" placeholder="Search entries..." aria-label="Search journal entries"></div>
+    <div class="filter-row" id="journal-filters"><button class="filter-button active" data-filter="All">All</button><button class="filter-button" data-filter="School">School</button><button class="filter-button" data-filter="Hobbies">Hobbies</button><button class="filter-button" data-filter="Life">Life</button></div>
+    <div id="journal-feed" class="journal-feed" aria-live="polite"></div>
+  </div>
+  <aside class="journal-sidebar"><div class="sidebar-card"><h3>📅 Archive</h3><div id="journal-archive"></div></div><div class="sidebar-card"><h3>✍️ A note</h3><p>These entries are examples. Edit the posts in <code>js/journal.js</code> to add your own writing.</p></div><div class="sidebar-card privacy-note"><h3>🔒 Privacy tip</h3><p>Keep journal entries suitable for a public audience. Avoid sharing addresses, phone numbers, school schedules or private details.</p></div></aside>
+</section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html">My<span>Portfolio.</span></a><p>© <span class="year"></span> My Portfolio</p></div></footer><button class="back-to-top" aria-label="Back to top">↑</button>
+</body></html>

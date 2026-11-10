@@ -1,0 +1,88 @@
+<!Author:Abhivaadya Sharma>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student portfolio showcasing interests, projects and learning.">
+  <title>Home | My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">My<span>Portfolio.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="projects.html">Projects</a>
+        <a href="journal.html">Journal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, WORLD! 👋</p>
+        <h1>Welcome to my<br><span>creative corner.</span></h1>
+        <p class="lead">I'm <strong>Your Name</strong> — a curious student who loves learning, creating and exploring new ideas. This is where I share the things I'm working on and the things that inspire me.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="projects.html">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="hobbies.html">What I enjoy</a>
+        </div>
+        <div class="mini-note">Currently learning: <strong>HTML, CSS & JavaScript</strong></div>
+      </div>
+      <div class="hero-visual">
+        <div class="profile-frame">
+          <img src="assets/images/profile.jpg" alt="Profile photo or custom avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="avatar-fallback">✦</div>
+        </div>
+        <div class="floating-card card-one">💡 Always curious</div>
+        <div class="floating-card card-two">🚀 Learning by doing</div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Things that make me, <span>me.</span></h2>
+        <p>Different interests, one curious mind.</p>
+      </div>
+      <div class="highlight-grid">
+        <article class="highlight-card"><div class="icon-box blue">💻</div><h3>Technology</h3><p>Exploring coding, computers and how things work.</p></article>
+        <article class="highlight-card"><div class="icon-box purple">🎨</div><h3>Creativity</h3><p>Turning random ideas into something interesting.</p></article>
+        <article class="highlight-card"><div class="icon-box orange">📚</div><h3>Learning</h3><p>Discovering new subjects, books and perspectives.</p></article>
+        <article class="highlight-card"><div class="icon-box green">🌱</div><h3>Growing</h3><p>Trying new things and improving a little every day.</p></article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="container quote-content">
+        <p class="eyebrow">MY LITTLE REMINDER</p>
+        <h2>“Great things are done by a series of small things brought together.”</h2>
+        <p>— Vincent van Gogh</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">TAKE A LOOK AROUND</p>
+        <h2>Explore my website</h2>
+      </div>
+      <div class="feature-grid">
+        <a class="feature-card" href="hobbies.html"><span>01 / INTERESTS</span><h3>My hobbies</h3><p>The activities, ideas and stories I enjoy.</p><b>Explore →</b></a>
+        <a class="feature-card" href="projects.html"><span>02 / MY WORK</span><h3>Projects & skills</h3><p>A collection of things I've learned and created.</p><b>Explore →</b></a>
+        <a class="feature-card" href="journal.html"><span>03 / NOTES</span><h3>My journal</h3><p>Small thoughts, reflections and discoveries.</p><b>Explore →</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html">My<span>Portfolio.</span></a><p>Made with curiosity and a little bit of code. © <span class="year"></span></p></div></footer>
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
